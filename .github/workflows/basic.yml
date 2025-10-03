@@ -10,7 +10,7 @@ jobs:
       - name: Step one
         uses: actions/checkout@v4
       - name: Step two
-        run: la -la
+        run: ls -la
       - run: pwd
       
 
